@@ -167,7 +167,7 @@
 ; if-exp unparse
 (define if-exp
   (lambda (test-exp then-exp else-exp)
-	  (list 'if (unparse test-exp) (unparse then-exp) (unparse else-exp)))
+	  (list 'if-exp (unparse test-exp) (unparse then-exp) (unparse else-exp)))
 
 ; do-bmath helper
 (define do-bmath 
